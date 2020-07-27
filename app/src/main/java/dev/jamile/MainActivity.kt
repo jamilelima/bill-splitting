@@ -17,7 +17,6 @@ class MainActivity : AppCompatActivity() {
             setCustomView(R.layout.custom_toolbar)
             displayOptions = ActionBar.DISPLAY_SHOW_CUSTOM
             elevation = 0F
-            actionBar?.elevation = 0F
         }
     }
 }
