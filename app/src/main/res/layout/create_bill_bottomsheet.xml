@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/nunito"
+        android:padding="20dp"
+        android:text="Enter the total"
+        android:textColor="@color/colorPrimary"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+
+    <EditText
+        android:id="@+id/totalValue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:fontFamily="@font/nunito"
+        android:hint="R$ 200,00"
+        android:inputType="numberDecimal"
+        android:padding="20dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="48sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/totalBillNextButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:fontFamily="@font/nunito"
+        android:padding="15dp"
+        android:text="Next"
+        android:textSize="18sp" />
+
+</LinearLayout>

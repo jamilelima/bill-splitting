@@ -4,4 +4,5 @@
     <color name="colorPrimaryDark">#353E45</color>
     <color name="fontColor">#CCC</color>
     <color name="colorAccent">#535AF6</color>
+    <color name="bottomSheetBackground">#CCC</color>
 </resources>

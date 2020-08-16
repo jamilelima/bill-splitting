@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeScreenFragment">
+    <fragment
+        android:id="@+id/createBillFragment"
+        android:name="dev.jamile.ui.CreateBillFragment"
+        android:label="fragment_create_bill"
+        tools:layout="@layout/fragment_create_bill">
+        <action
+            android:id="@+id/action_createBillFragment_to_addPeopleFragment"
+            app:destination="@id/addPeopleFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/homeScreenFragment"
+        android:name="dev.jamile.ui.HomeScreenFragment"
+        android:label="HomeScreenFragment">
+        <action
+            android:id="@+id/action_homeScreenFragment_to_createBillFragment"
+            app:destination="@id/createBillFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addPeopleFragment"
+        android:name="dev.jamile.ui.AddPeopleFragment"
+        android:label="AddPeopleFragment" />
+</navigation>
